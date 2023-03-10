@@ -132,7 +132,13 @@
   position: relative !important;
   top: -55% !important;
 }
+.bottom_nav{
+  display: none;
+}
 @media (max-width: 400px) {
+  .bottom_nav{
+    display: block;
+  }
   .dashboard_container{
     flex-direction: column;
     overflow-y: scroll;

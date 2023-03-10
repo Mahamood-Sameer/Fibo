@@ -173,6 +173,7 @@ function Home() {
       <Paper
         sx={{ position: "fixed", bottom: 0, left: 0, right: 0 }}
         elevation={3}
+        className={style.bottom_nav}
       >
         <BottomNavigation
           showLabels
