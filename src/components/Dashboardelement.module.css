@@ -1,0 +1,16 @@
+.menubox_container{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin: 10px;
+}
+.title{
+    font-size: 21px !important;
+    margin-left: 15px;
+}
+.menubox_container:hover{
+    color: #FF8D24;
+    cursor: pointer;
+    transition-property: "color";
+    transition-duration: 0.4s;
+}

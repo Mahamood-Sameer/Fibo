@@ -1,0 +1,22 @@
+.action_box{
+    border-radius: 10px;
+    background-color: #2D2D2D;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    height: 100px;
+    color: white !important;
+}
+@media (max-width:400px) {
+    .action_box{
+        flex-direction: row;
+        width: 90%;
+        justify-content: flex-start;
+        height: fit-content;
+        padding: 10px;
+        margin: 5px;
+    }
+}
